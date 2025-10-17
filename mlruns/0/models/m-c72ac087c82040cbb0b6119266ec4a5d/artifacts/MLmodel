@@ -1,0 +1,36 @@
+artifact_path: file:///D:/SMSML_Prayitno/mlruns/0/models/m-c72ac087c82040cbb0b6119266ec4a5d/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+is_signature_from_type_hint: false
+mlflow_version: 3.5.0
+model_id: m-c72ac087c82040cbb0b6119266ec4a5d
+model_size_bytes: 972
+model_uuid: m-c72ac087c82040cbb0b6119266ec4a5d
+prompts: null
+run_id: 47a49e9eb3c8418cbd9bc135af93f752
+signature:
+  inputs: '[{"type": "double", "name": "age", "required": true}, {"type": "double",
+    "name": "sex", "required": true}, {"type": "double", "name": "cp", "required":
+    true}, {"type": "double", "name": "trestbps", "required": true}, {"type": "double",
+    "name": "chol", "required": true}, {"type": "double", "name": "fbs", "required":
+    true}, {"type": "double", "name": "restecg", "required": true}, {"type": "double",
+    "name": "thalch", "required": true}, {"type": "double", "name": "exang", "required":
+    true}, {"type": "double", "name": "oldpeak", "required": true}, {"type": "double",
+    "name": "slope", "required": true}, {"type": "double", "name": "ca", "required":
+    true}, {"type": "double", "name": "thal", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-10-17 02:07:57.908991'

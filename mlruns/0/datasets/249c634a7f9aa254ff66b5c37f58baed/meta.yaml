@@ -1,0 +1,15 @@
+digest: 0d04deee
+name: dataset
+profile: '{"num_rows": 184, "num_elements": 2392}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "age", "required": true},
+  {"type": "double", "name": "sex", "required": true}, {"type": "double", "name":
+  "cp", "required": true}, {"type": "double", "name": "trestbps", "required": true},
+  {"type": "double", "name": "chol", "required": true}, {"type": "double", "name":
+  "fbs", "required": true}, {"type": "double", "name": "restecg", "required": true},
+  {"type": "double", "name": "thalch", "required": true}, {"type": "double", "name":
+  "exang", "required": true}, {"type": "double", "name": "oldpeak", "required": true},
+  {"type": "double", "name": "slope", "required": true}, {"type": "double", "name":
+  "ca", "required": true}, {"type": "double", "name": "thal", "required": true}]}'
+source: '{"tags": {"mlflow.user": "LAB_UNAMA", "mlflow.source.name": ".\\membangun_model\\modeling.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code
