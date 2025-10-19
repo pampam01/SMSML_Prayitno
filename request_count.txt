@@ -1,1 +1,1 @@
-0
+# CLEANED_DATA_PATH = "../membangun_model/heart_disease_preprocessing/heart_cleaned_automated.csv
